@@ -36,7 +36,7 @@ export class Game {
                 return this._board.TileAt(0, 0)!.Symbol;
             }
         }
-
+     // Conditional complexity 
         //if the positions in first row are taken
         if (this._board.TileAt(1, 0)!.Symbol != ' ' &&
                 this._board.TileAt(1, 1)!.Symbol != ' ' &&
